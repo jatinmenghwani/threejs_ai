@@ -8,7 +8,7 @@ dotenv.config();
 const router = express.Router();
 
 const config = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "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",
 });
 
 const openai = new OpenAIApi(config);
